@@ -1,0 +1,121 @@
+
+.shippingContainer {
+   width: 100vw;
+   height: 85vh;
+   max-width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background-color: rgb(221, 230, 237);
+   /* position: fixed;
+   top: 0%;
+   left: 0; */
+
+}
+.shippingBox {
+   background-color: rgb(221, 230, 237);
+   width: 25vw;
+   height: 70vh;
+   box-sizing: border-box;
+   overflow: hidden;
+   box-shadow: 0 0 5px rgba(75, 93, 118, 0.5);
+}
+
+.shippingHeading {
+   text-align: center;
+   color: rgb(39, 55, 77, 0.8);
+   font: 400 1.3vmax "Roboto";
+   padding: 1.3vmax;
+   border-bottom: 1px solid rgb(157, 178, 191);
+   width: 50%;
+   margin: auto;
+}
+
+.shippingForm {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: auto;
+   padding: 2vmax;
+   justify-content: space-evenly;
+   height: 70%;
+   transition: all 0.5s;
+
+}
+
+.shippingForm>div {
+   display: flex;
+   width: 100%;
+   align-items: center;
+
+}
+
+.shippingForm>div>input {
+   color: #526D82;
+   padding: 1vmax 1vmax;
+   padding-right: 1vmax;
+   width: 100%;
+   box-sizing: border-box;
+   border: 1px solid rgb(157, 178, 191);
+   box-shadow: 0 0 5px rgba(75, 93, 118, 0.5);
+   background-color: rgb(221, 230, 237);
+   border-radius: 4px;
+   font: 300 0.9vmax cursive;
+   outline: none;
+}
+
+::-webkit-input-placeholder {
+   color: rgba(82, 109, 130, 0.6);
+}
+
+
+.shippingBtn {
+   border: none;
+   background-color: #526D82;
+   color: rgb(221, 230, 237);
+   font: 300 0.9vmax "Roboto";
+   width: 100%;
+   padding: 0.8vmax;
+   cursor: pointer;
+   transition: all 0.5s;
+   border-radius: 4px;
+   outline: none;
+   box-shadow: 0 2px 5px rgba(75, 93, 118, 0.5);
+}
+
+.shippingBtn:hover {
+   background-color: rgb(157, 178, 191);
+}
+
+
+@media screen and (max-width: 600px) {
+   .shippingContainer {
+      background-color: rgb(221, 230, 237);
+   }
+
+   .shippingBox {
+      width: 100vw;
+      height: 95vh;
+      box-shadow: none;
+   }
+
+   .shippingHeading {
+      font: 400 6vw "Roboto";
+      padding: 5vw;
+   }
+
+   .shippingForm {
+      padding: 5vmax;
+   }
+
+   .shippingForm>div>input {
+      padding: 2.5vmax 5vmax;
+      font: 300 1.7vmax cursive;
+   }
+
+   .shippingBtn {
+      font: 300 1.9vmax "Roboto";
+      padding: 1.8vmax;
+   }
+}

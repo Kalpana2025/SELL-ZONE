@@ -1,0 +1,91 @@
+.dashboard {
+   width: 100vw;
+   max-width: 100%;
+   display: grid;
+   grid-template-columns: 1fr 5fr;
+   position: absolute;
+ }
+ .dashboardContainer {
+   border-left: 1px solid rgb(157, 178, 191);
+   background-color: rgb(221, 230, 237);
+   padding:3rem 0;
+ }
+
+ .dashboardContainer > h1 {
+   color: rgb(39, 55, 77,0.8);
+   font: 300 2rem "Roboto";
+   text-align: center;
+   width: 50%;
+   padding: 1.5rem;
+   margin: auto;
+ }
+ 
+ .dashboardSummary {
+   margin: 1rem 0;
+ }
+
+ .dashboardSummary > div {
+   display: flex;
+   background-color: rgb(221, 230, 237);
+   justify-content: center;
+ }
+ .dashboardSummary > div > p {
+   background-color: #4F709C;
+   color: #DDE6ED;
+   font: 300 1.3rem "Roboto";
+   text-align: center;
+   padding: 1.5rem;
+   width: 100%;
+   margin: 0 2rem;
+ }
+
+ .dashboardSummaryBox2 > a {
+   color: rgb(39, 55, 77);
+   font: 300 2rem "Roboto";
+   text-align: center;
+   background-color: rgb(241, 212, 212);
+   border: 1px solid rgb(151, 177, 193);
+   box-shadow: 0 0 10px rgba(67, 78, 94, 0.5);
+   text-decoration: none;
+   padding: 1.5rem;
+   width: 18vmax;
+   height: 10vmax;
+   margin: 2rem;
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+ }
+ 
+ .dashboardSummaryBox2 > a:first-child {
+   background-color: #94b4da;
+   /* #FF9EAA */
+   color: rgb(39, 55, 77);
+ }
+ 
+ .dashboardSummaryBox2 > a:last-child {
+   background-color: #94b4da;
+   /* #45CFDD */
+   color: rgb(39, 55, 77);
+ }
+
+ .lineChart {
+   width: 80%;
+   margin: auto;
+ }
+ 
+ .doughnutChart {
+   width: 30vmax;
+   margin: auto;
+ }
+ 
+ @media screen and (max-width: 600px) {
+   .dashboard {
+     grid-template-columns: 1fr;
+   }
+ 
+   .dashboardContainer {
+     border-left: none;
+   }
+}

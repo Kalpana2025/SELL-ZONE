@@ -1,0 +1,53 @@
+.updateOrderForm {
+  margin: 5vmax 0;
+  padding: 3vmax;
+  background-color: rgb(221, 230, 237);
+  }
+.updateOrderForm > div {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  }
+.updateOrderForm > div > select
+{
+  color:#526D82;
+  padding: 1vmax 4vmax;
+  margin: 2rem 0;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgb(157, 178, 191);
+  /* box-shadow: 0 0 5px rgba(104, 120, 142, 0.5); */
+  background-color:rgb(221, 230, 237) ;
+  border-radius: 4px;
+  font: 300 0.9vmax cursive;
+  outline: none;
+}
+.updateOrderForm > div > svg {
+  position: absolute;
+  transform: translateX(1vmax);
+  font-size: 1.6vmax;
+  color: rgb(82, 109, 130);
+}
+@media screen and (max-width: 600px) {
+
+   
+   .updateOrderForm{
+     padding: 5vmax;
+     /* width: 40vh;
+     height: 70vh; */
+   }
+   
+   
+   .updateOrderForm > div > select
+  {
+     padding: 2.5vmax 5vmax;
+     font: 300 1.7vmax cursive;
+    
+   }
+   .updateOrderForm > div > svg {
+     font-size: 2.8vmax;
+   }
+ 
+  
+}
+
