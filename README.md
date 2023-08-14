@@ -1,6 +1,6 @@
 # SELL-ZONE (Campus adda)
 
-This website is for campus students, there is no such platform in the campus to sell or buy used articles.Though articles are in good condition to use but in absence of contact between buyer and seller,it makes a pile of articles in campus.
+This website is for campus students, there is no such platform in the campus to sell or buy used articles.Though articles are in good condition to use but in absence of contact between buyer and seller,it makes a pile of articles in the campus.
 
 # Prerequisite
 **MERN STACK** & **RestApi** 
@@ -29,8 +29,8 @@ SMPT_MAIL=
 SMPT_PASSWORD=
 SMPT_HOST=
 SMPT_PORT=
-CLOUDINARY_NAME
-CLOUDINARY_API_KEY
-CLOUDINARY_API_SECRET
+CLOUDINARY_NAME=
+CLOUDINARY_API_KEY=
+CLOUDINARY_API_SECRET=
 _fill each filed with your info respectively_
 
